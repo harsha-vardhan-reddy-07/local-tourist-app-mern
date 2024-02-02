@@ -1,0 +1,58 @@
+.Footer{
+
+    background-color: rgb(203, 10, 55);
+    padding: 4vh 1.5vw 2vh 1.5vw;
+}
+
+
+.footer_body{
+    display: flex;
+}
+
+.footer_title{
+    width: 50%;
+}   
+
+.footer_title h2{
+    color: aliceblue;
+    font-size: 3rem;
+    font-style: oblique;
+    margin: 0;
+}
+
+.footer_title p{
+    color: rgba(232, 242, 251, 0.655);
+    font-size: 1rem;
+    font-style: oblique;
+    margin: 0;
+}
+
+.footer_options{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    padding-top: 8vh;
+}
+
+.footer_options ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_options ul li{
+
+    font-style: oblique;
+    color: rgba(240, 248, 255, 0.635);
+}
+
+.footer_options ul li:hover{
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.footer_copy{
+    text-align: center;
+    margin: 0;
+    color: rgba(240, 248, 255, 0.53);
+}

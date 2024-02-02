@@ -1,0 +1,76 @@
+.LocationPage{
+
+    padding: 14vh 2vw 6vh 2vw;
+}
+
+.location_banner_img{
+    width: 100%;
+    height: 83vh;
+    border-radius: 0.7rem;
+}
+
+.LocationPage h3{
+    font-size: 2.3rem;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+.LocationPage .location_description{
+    margin-top: 2vh;
+    font-size: 1.1rem;
+}
+
+.address_span_2{
+    display: flex;
+    gap: 10vw;
+}
+
+.LocationPage span{
+
+
+}
+
+.LocationPage span b{
+    font-weight: 500;
+    color: rgb(207, 122, 133);
+}
+
+.LocationPage span p{
+    margin: 0;
+    margin-bottom: 2vh;
+    font-style: oblique;
+    color: rgb(107, 99, 100);
+}
+
+.LocationPage h4{
+    margin: 5vh 0 3vh 0;
+    font-size: 2rem;    
+    font-weight: 400;
+    color: rgb(84, 83, 82);
+}
+
+.add_new_image_container{
+
+    width: 60%;
+}
+
+.add_new_image_container span{
+
+    display: flex;
+    gap: 20px;
+}
+
+.location_more_images{
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vh;
+
+}
+
+.location_more_images img{
+
+    width: 100%;
+    height: 60vh;
+    border-radius: 0.7rem;
+}

@@ -1,0 +1,84 @@
+.searchPage{
+
+}
+
+.search_container{
+    margin-top: 15vh;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 7vh 0;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 0.7rem;
+}
+
+.search_container h3{
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 400;
+    font-style: oblique;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5vh;
+    color: rgb(83, 39, 46);
+}
+
+.search_type_toggle{
+    display: flex;
+    margin:0 auto 3vh auto;
+    width: fit-content;
+    gap: 10px;
+    justify-content: space-evenly;
+    border: 1px solid rgb(255, 64, 96);
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.search_type_toggle p{
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+    width: 8vw;
+    border-radius: 2rem;
+    cursor: pointer;
+    color: rgb(255, 64, 96);
+}
+
+.search_type_toggle .active{
+
+    background-color: rgb(255, 64, 96);
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.search_bar{
+    height: 12vh;
+    width: 70vw;
+    margin: 0 auto;
+    border: 1px solid rgb(242, 69, 98);
+    padding: 7px;
+    border-radius: 0.6rem;
+}
+
+.search_bar input{
+    height: 100%;
+    width: 85%;
+    border: none;
+}
+
+.search_bar input:focus{
+    outline: none;
+}
+
+.search_bar button{
+    height: 100%;
+    width: 15%;
+    border-radius: 0.6rem;
+    border: none;
+    background-color:  rgb(255, 64, 96);
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.search_cities{
+    margin-bottom: 8vh;
+}

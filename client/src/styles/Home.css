@@ -1,0 +1,132 @@
+.HomePage{
+
+
+}
+.home_banner{
+    height: 90vh;
+    background: url('../images/banner.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home_banner_title{
+    width: 40%;
+    margin: 0;
+    margin-left: 55%;
+    padding-top: 20vh;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #797070;
+}
+.home_banner_title span{
+    color: rgb(255, 64, 86);
+    font-style: oblique;
+}
+
+.popular_cities_container{
+
+
+}
+
+.popular_cities_container h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ff7171;
+    margin: 0;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.popular_cities{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 3vh;
+}
+
+.popular_city{
+    width: 22%;
+    height: fit-content;
+    margin: 1%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease-in-out;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.popular_city:hover{
+    transform: scale(1.05);
+}
+.popular_city img{
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+.popular_city h4{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #797070;
+    margin: 0;
+    margin-top: 1vh;
+    text-align: center;
+}
+
+
+.trending_destinations_container{
+    background-color: #ff7171;
+    margin: 5vh 0;
+    padding: 4vh 1vw;
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 1rem;
+}
+
+.trending_destinations_container h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+    margin-left: 1.5vw;
+}
+
+.trending_destinations{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+    margin-top: 3vh;
+    gap: 1.5%;
+}
+
+.trending_destination{
+    height: fit-content;
+    margin: 1%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease-in-out;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.trending_destination:hover{
+    transform: scale(1.05);
+}
+
+.trending_destination img{
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+.trending_destination h4{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #797070;
+    margin: 0;
+    margin-top: 1vh;
+    text-align: center;
+}

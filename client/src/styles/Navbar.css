@@ -1,0 +1,64 @@
+.Navbar{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: rgb(255, 64, 108);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.Navbar h3{
+    color: aliceblue;
+    cursor: pointer;
+    margin: 0;
+}
+
+.nav_options{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav_search{
+
+
+}
+.nav_search input{
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    border-bottom: 1.5px solid aliceblue;
+    color: rgba(240, 248, 255, 0.913);
+}
+
+.nav_search input:focus{
+
+}
+
+.nav_search:hover input{
+
+}
+
+
+.nav_search_icon{
+    font-size: 1.2rem;
+}
+
+
+
+.nav_options p{
+    margin: 0;
+    color: rgba(240, 248, 255, 0.913);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav_options p:hover{
+    color: aliceblue;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}

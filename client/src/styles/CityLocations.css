@@ -1,0 +1,59 @@
+.CityLocations{
+
+    padding: 14vh 3%;
+}
+
+.CityLocations h3{
+    margin-bottom: 4vh;
+    font-weight: 400;
+    font-style: oblique;
+    font-size: 2.2rem;
+    color: rgb(100, 101, 102);
+}
+
+.CityLocations h3 span{
+    font-weight: 500;
+    color: rgb(255, 116, 148);
+
+}
+
+.CityLocations__container{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5%;
+    row-gap: 4vh;
+    margin-bottom: 6vh;
+}
+
+.city_location{
+    padding: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.city_location:hover{
+    transform:translateY(-10px) scale(1.02);
+    transition: all 0.3s ease-in-out;
+}
+.city_location img{
+    width: 100%;
+    height: 30vh;
+    border-radius: 0.6rem;
+}
+
+.city_location h4{
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.3rem;
+    font-style: oblique;
+}
+
+.city_location p{
+    margin: 0;
+    font-size: 0.8rem;
+    text-align: center;
+}
